@@ -22,7 +22,7 @@ public class Golf {
         while (!parties.isEmpty()) {
 
             //first element is always a party
-            int party = parties.get(0);
+            Integer party = parties.get(0);
             parties.remove(0);
             count++;
 
@@ -37,6 +37,7 @@ public class Golf {
                 if (party == 4) break;
             }
         }
+
         return count;
     }
 }
